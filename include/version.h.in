@@ -1,0 +1,10 @@
+/// @file
+/// @brief Файл объявления функции получения версии приложения
+
+#pragma once
+
+#define PROJECT_VERSION "${PROJECT_VERSION}"
+
+/// @brief Получение номера версии
+/// @return версия приложения
+const char* version();
